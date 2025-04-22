@@ -42,9 +42,8 @@ const Navbar = () => {
           {menuOpen ? <RxCross2 size={25} /> : <RxHamburgerMenu size={25} />}
         </button>
 
-        <span className="higlight-logo-rest">
-          {" "}
-          <span className="higlight-logo">A</span>xcelMart
+        <span className="highlight-logo-rest">
+          <span className="highlight-logo">A</span>xcelMart
         </span>
       </div>
 
@@ -60,11 +59,16 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="nav-account" onClick={() => handleLoginPopUpChange(!loginPopUp)}>
+      <div 
+        className="nav-account" 
+        onClick={() => handleLoginPopUpChange(!loginPopUp)}
+        role="button"
+        aria-label="Account"
+      >
         <FiUser />
-        <span >Account</span>
+        <span>Account</span>
       </div>
-      </nav>
+    </nav>
   );
 };
 

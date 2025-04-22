@@ -19,7 +19,7 @@
 }
 
 .login-header p {
-  color: gray;  
+  color: gray;
 }
 
 /* Form styling */
@@ -52,7 +52,7 @@ input:focus {
 /* Error message styling */
 .error {
   color: red;
-  font-size:  14px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -89,7 +89,7 @@ input:focus {
   width: 100%;
 }
 
-button {
+.continue-button {
   background: linear-gradient(#252525 80%, #191919 20%);
   color: #ffffff;
   padding: 12px 14px;
@@ -105,6 +105,6 @@ button {
   align-items: center;
 }
 
-button span {
+.continue-button span {
   margin-left: 8px;
 }

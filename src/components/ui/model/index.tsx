@@ -20,8 +20,12 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <button className="close-button" onClick={onClose}>
-          <RxCross1 size={20}/>
+        <button 
+          className="close-button" 
+          onClick={onClose}
+          aria-label="Close"
+        >
+          <RxCross1 size={20} />
         </button>
 
         {showLogin ? (

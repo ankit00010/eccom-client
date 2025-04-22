@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <UserProvider>
-        <body className="layout-body">
+        <body>
           <LayoutWrapper>{children}</LayoutWrapper>
         </body>
       </UserProvider>
