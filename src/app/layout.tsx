@@ -4,7 +4,7 @@ import LayoutWrapper from "@/components/layoutWrapper";
 import UserProvider from "@/context/admin_context";
 
 export const metadata: Metadata = {
-  title: "AXCELL",
+  title: "AxcelMart",
   description: "Ecommerce website",
 };
 

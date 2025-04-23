@@ -8,7 +8,7 @@ import { UserContext, UserContextProps } from "@/context/admin_context";
 
 const menuItems = [
   { label: "Home", path: "/" },
-  { label: "Shop", path: "/shop" },
+  { label: "Shop", path: "/all-products" },
   { label: "About Us", path: "/about" },
   { label: "Contact", path: "/contact" },
 ];
@@ -42,7 +42,7 @@ const Navbar = () => {
           {menuOpen ? <RxCross2 size={25} /> : <RxHamburgerMenu size={25} />}
         </button>
 
-        <span className="highlight-logo-rest">
+        <span className="highlight-logo-rest" onClick={()=>{router.push('/')}}>
           <span className="highlight-logo">A</span>xcelMart
         </span>
       </div>

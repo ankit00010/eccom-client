@@ -37,6 +37,7 @@
 }
 
 .highlight-logo-rest {
+  cursor: pointer;
   color: black;
   font-weight: bold;
   font-size: 2rem;
